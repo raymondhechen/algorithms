@@ -40,17 +40,17 @@ public class mergesort {
                 k++;
                 j++;
             }
-            else if (j == c.length) {
+            else if (j == c.length) { // if c finished, but not b
                 a[k] = b[i];
                 k++;
                 i++;
             }
-            else if (b[i] < c[j]) {
+            else if (b[i] < c[j]) { // if b values > c value
                 a[k] = b[i];
                 k++;
                 i++;
             }
-            else {
+            else { // if c value > b value
                 a[k] = c[j];
                 k++;
                 j++;
