@@ -2,9 +2,7 @@
  * Merge Sort Algorithm
  * @author Raymond Chen
  * 
- * 
- * Algorithm Design:
- * Divide & Conquer
+ * Algorithm Design: Divide & Conquer
  * An array is divided into two subarrays by recursive calls.
  * This continues to the base case of an array of length 1.
  * Then the merging process begins, where two recursively called sorted arrays
