@@ -1,3 +1,22 @@
+/** 
+ * Merge Sort Algorithm
+ * @author Raymond Chen
+ * 
+ * 
+ * Algorithm Design:
+ * Divide & Conquer
+ * An array is divided into two subarrays by recursive calls.
+ * This continues to the base case of an array of length 1.
+ * Then the merging process begins, where two recursively called sorted arrays
+ * are merged together in sorted order. The merge process works by looking at the
+ * first elements of each array and taking the smallest value, only incrementing within 
+ * that array after selecting an item to be added to the merged array.
+ * 
+ * Runtime Analysis:
+ * T(n) = 2T(n/2) + O(n)
+ * By Master's Theorem, this recurrence relation is equivalent to
+ * T(n) = O(nlogn)
+*/
 public class mergesort {
 
     // Recursively called merge sort function
