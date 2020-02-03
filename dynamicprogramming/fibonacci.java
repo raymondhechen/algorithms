@@ -1,7 +1,4 @@
-import java.util.*;
-
 /**
- * 
  * Fibonacci Number
  * Find the nth Fibonacci number
  * @author Raymond Chen
@@ -20,6 +17,8 @@ import java.util.*;
  * We can find a value of k s.t. n - k = 0 --> n = k.
  * Thus, T(n) = T(0) + nc = 1 + nc = O(n)
  */
+
+import java.util.*;
 
 public class fibonacci {
 
