@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="5" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-09-18T02:50:15" tests="0" failures="1" time="0">
+    <testcase name=" Uncaught error outside test suite" time="0" classname="Uncaught error outside test suite">
+      <failure message="listen EADDRINUSE: address already in use 0.0.0.0:8000" type="Error"><![CDATA[Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at doListen (net.js:1498:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="list view test" timestamp="2020-09-18T02:50:15" tests="5" file="/home/raymondchen/Documents/mckinsey/f4af4ca3-b416-4227-bab0-7f0b70b2f32c/test/test.js" failures="1" time="0">
+    <testcase name="list view test &quot;before all&quot; hook" time="0" classname="&quot;before all&quot; hook">
+      <failure message="unknown error: DevToolsActivePort file doesn&apos;t exist
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Linux 5.4.0-45-generic x86_64)" type="WebDriverError"><![CDATA[WebDriverError: unknown error: DevToolsActivePort file doesn't exist
+  (Driver info: chromedriver=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}),platform=Linux 5.4.0-45-generic x86_64)
+    at Object.checkLegacyResponse (node_modules/selenium-webdriver/lib/error.js:546:15)
+    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:509:13)
+    at node_modules/selenium-webdriver/lib/http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+From: Task: WebDriver.createSession()
+    at Function.createSession (node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+    at Function.createSession (node_modules/selenium-webdriver/chrome.js:761:15)
+    at createDriver (node_modules/selenium-webdriver/index.js:170:33)
+    at Builder.build (node_modules/selenium-webdriver/index.js:642:16)
+    at Context.<anonymous> (test/test.js:34:14)
+    at processImmediate (internal/timers.js:456:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
