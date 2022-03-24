@@ -1,3 +1,3 @@
 # algorithms
 
-Implementations of Algorithms from Duke Courses or Interview Problems
+Implementations of various algorithms
